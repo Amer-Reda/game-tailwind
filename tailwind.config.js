@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./dist/**/*.{html,js}"],
+  content: ["./index.html", "./src/**/*.{js}"],
   theme: {
     extend: {
       colors: {
@@ -9,7 +9,9 @@ module.exports = {
           100: "#9dc3ff",
           200: "#5b9aff"
         }
-
+      },
+      fontFamily: {
+        font_body: ["googleapis"]
       }
     },
   },
